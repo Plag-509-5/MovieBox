@@ -27,6 +27,10 @@
 - **Cover Art:** Native Kitty, Sixel, and iTerm2 poster rendering with automatic text fallback.
 - **Resume & Library:** Home deck with continue-watching timestamps, watch history, and favorites stored strictly on local disk. Zero telemetry.
 
+### Optional REST API
+
+This repository also includes a read-only JSON API entrypoint for provider discovery, search, suggestions, homepage catalogs, and item details. The Pterodactyl deployment uses Express in front of the existing Rust provider service; it does not host video files. See the [Pterodactyl/Express deployment guide](docs/api.md).
+
 ## Prerequisites
 
 - **Media Player:** `mpv`, `VLC`, or `IINA` (macOS) / any external video player (Android).
@@ -134,6 +138,7 @@ Full documentation at [**mesamirh.github.io/MovieBox-Tui**](https://mesamirh.git
 | [Hardware Players](docs/players.md) | Player detection, launch options, and flags |
 | [Live TV & IPTV](docs/tv-mode.md) | M3U playlist import and channel streaming |
 | [Batch Downloads](docs/downloads.md) | HTTP range engine, pause, and resume |
+| [REST API & Pterodactyl](docs/api.md) | Express entrypoint, Pterodactyl setup, token/CORS settings, and provider backend |
 
 ## Contributing
 
