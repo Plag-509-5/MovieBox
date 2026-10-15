@@ -18,6 +18,9 @@ Thumbs.db
 .LSOverride
 debug_*.json
 *.log
+.env
+.env.*
+node_modules/
 dist/
 book/
 docs/changelog.md

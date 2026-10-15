@@ -43,6 +43,7 @@
 | [Installation](installation.md) | Platform installation instructions, package managers, and binary verification |
 | [Keyboard & Controls](controls.md) | Complete keybindings, vim navigation, text editing, and slash commands |
 | [Configuration Guide](config.md) | `config.json` schema, settings hub options, and environment variables |
+| [REST API & Pterodactyl](api.md) | Express entrypoint, Pterodactyl deployment, authentication, CORS, and rate limiting |
 
 ### Features & Modes
 
